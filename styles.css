@@ -231,7 +231,7 @@ nav {
   color: var(--white);
 }
 .header__content h1{
-  color:var(--white)
+  color: var(--white);
 }
 
 .about__container {
@@ -566,9 +566,10 @@ nav {
 }
 
 .footer__logo a {
+  margin-bottom: 1.5rem;
   display: flex;
-  align-items:center;
-  gap: 0.6rem;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-dark);
@@ -584,6 +585,24 @@ nav {
   font-size: 0.8rem;
 }
 
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__socials a {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  color: var(--text-light);
+  border-radius: 100%;
+  border: 1px solid var(--text-light);
+}
+
+.footer__socials a:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
 
 .footer__col h4 {
   margin-bottom: 1.5rem;
